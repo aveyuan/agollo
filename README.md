@@ -56,7 +56,7 @@ agollo.Start(&agollo.Conf{
 #### or to issue a new client to embedded into your program
 
 ```golang
-apollo := agollo.New(&agollo.Conf{
+apollo := agollo.NewClient(&agollo.NewConf{
                             AppID:          "your app id",
                             Cluster:        "default",
                             NameSpaceNames: []string{"application.properties"},
